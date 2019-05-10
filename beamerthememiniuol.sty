@@ -1,5 +1,5 @@
 
-\ProvidesPackage{beamerthememanc}[2016/01/08]
+\ProvidesPackage{beamerthememiniuol}[2019/05/10]
 
 \mode<presentation>
 
@@ -29,8 +29,8 @@
 
 % Colors
 \colorlet{manDarkGrey}{black!90!white}
-\definecolor{manPrimary}{HTML}{\beamerthememanc@primaryColor}
-\definecolor{manPrimaryLight}{HTML}{\beamerthememanc@primaryLightColor}
+\definecolor{manPrimary}{HTML}{\beamerthememiniuol@primaryColor}
+\definecolor{manPrimaryLight}{HTML}{\beamerthememiniuol@primaryLightColor}
 \colorlet{manSecondary}{yellow!70!red}
 
 \setbeamercolor{palette1}{fg=white, bg=manPrimary}
@@ -180,7 +180,7 @@
 \def\titlepage{\usebeamertemplate{title page}}
 \setbeamertemplate{title page}
 {%
-  \ifthenelse{\equal{\beamerthememanc@background}{}}{%
+  \ifthenelse{\equal{\beamerthememiniuol@background}{}}{%
     \tikz[
         overlay,
         remember picture,
@@ -194,7 +194,7 @@
         show background rectangle,
         background rectangle/.style={fill=black},
     ] \node[opacity=0.65,at=(current page.center)] {
-      \includegraphics[height=\paperheight,width=\paperwidth]{\beamerthememanc@background}
+      \includegraphics[height=\paperheight,width=\paperwidth]{\beamerthememiniuol@background}
     };%
   }%
   \begin{minipage}[t][\paperheight]{\textwidth}
@@ -217,12 +217,12 @@
     \ifx\insertinstitute\@empty%
     \else%
       {\usebeamercolor[fg]{institute}\usebeamerfont{institute}\insertinstitute\par}%
-    \fi% 
+    \fi%
     \vspace{3.25em}
     \ifx\insertdate\@empty%
     \else%
       {\usebeamercolor[fg]{date}\usebeamerfont{date}\insertdate\par}%
-    \fi% 
+    \fi%
     \vspace{2em}
   \end{minipage}%
   \begin{textblock}{1}(15,15)
@@ -244,7 +244,7 @@
 \setbeamertemplate{footline}
 {%
 \leavevmode%
-\ifbeamerthememanc@fullfootline%
+\ifbeamerthememiniuol@fullfootline%
   \begin{beamercolorbox}[wd=.2\paperwidth, ht=1.8em, dp=1em, left, leftskip=1em]{normal text}%
   \insertshortauthor%
   \end{beamercolorbox}%
