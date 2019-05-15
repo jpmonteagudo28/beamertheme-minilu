@@ -113,7 +113,7 @@
 \setbeamerfont{frametitle}{family=\Regular,size=\Large,shape=\scshape}
 \setbeamerfont{block title}{family=\Regular,size=\large}
 \setbeamerfont{caption name}{family=\Regular}
-\setbeamerfont{pagenumber}{family=\Regular,size=\fontsize{12}{14}}
+\setbeamerfont{pagenumber}{family = \Light, size = \footnotesize}
 
 % replace beamer blocks with tcolorboxes
 \newtcolorbox{myblock}[2][]{
@@ -255,7 +255,7 @@
   \hfill
 \fi%
 \begin{beamercolorbox}[wd=.2\paperwidth, ht=1.8em, dp=1em, right, rightskip=1em]{}%
-  \usebeamerfont{pagenumber}\insertframenumber{}\kern-1pt/\kern-1pt\inserttotalframenumber%
+  \usebeamerfont{pagenumber}\insertframenumber{} of \inserttotalframenumber%
 \end{beamercolorbox}%
 }
 
