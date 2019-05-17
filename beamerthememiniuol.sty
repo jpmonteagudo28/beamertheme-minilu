@@ -72,48 +72,54 @@
 \usefonttheme{professionalfonts}
 \usepackage{unicode-math}
 \newfontfamily\SemiBold[
-  BoldFont={Fira Sans Bold},
-  ItalicFont={Fira Sans SemiBold Italic},
-  BoldItalicFont={Fira Sans Bold Italic},
-]{Fira Sans SemiBold}
+	BoldFont = {Inter Bold},
+	ItalicFont = {Inter Semi Bold Italic},
+	BoldItalicFont = {Inter Bold Italic},
+]{Inter Semi Bold}
 \newfontfamily\Light[
-  BoldFont={Fira Sans Book},
-  ItalicFont={Fira Sans Light Italic},
-  BoldItalicFont={Fira Sans Book Italic},
-]{Fira Sans Light}
+	BoldFont = {Inter},
+	ItalicFont = {Inter Light Italic BETA},
+	BoldItalicFont = {Inter Italic},
+]{Inter Light BETA}
 \newfontfamily\ExtraLight[
-  BoldFont={Fira Sans Light},
-  ItalicFont={Fira Sans ExtraLight Italic},
-  BoldItalicFont={Fira Sans Light Italic},
-]{Fira Sans ExtraLight}
-\newfontfamily\Regular{Fira Sans Book}
-\newfontfamily\Bold{Fira Sans Bold}
+	BoldFont = {Inter Light BETA},
+	ItalicFont = {Inter Extra Light Italic BETA},
+	BoldItalicFont = {Inter Light Italic BETA},
+]{Inter Extra Light BETA}
+\newfontfamily\Regular{Inter}
+\newfontfamily\Bold{Inter Bold}
 \setsansfont[
-  BoldFont={Fira Sans Bold},
-  ItalicFont={Fira Sans Book Italic},
-  BoldItalicFont={Fira Sans Bold Italic},
-]{Fira Sans Light}
-\newfontfamily\Display{Open Sans Condensed Bold}
+	BoldFont = {Inter Bold},
+	ItalicFont = {Inter Light Italic BETA},
+	BoldItalicFont = {Inter Bold Italic},
+]{Inter Light BETA}
+\newfontfamily\Display{Iosevka Slab}
+\newfontfamily\DisplayLight{Iosevka Slab Light}
+\newfontfamily\DisplayBold{Iosevka Slab Bold}
 \setmonofont[
-  Scale=MatchLowercase,
-]{Fira Mono}
+	BoldFont = {Iosevka Bold},
+	ItalicFont = {Iosevka Italic},
+	BoldItalicFont = {Iosevka Bold Italic},
+	Contextuals = {Alternate},
+	Ligatures = {TeX}
+]{Iosevka}
 \setmathfont{Latin Modern Math}
 
 % Boxes
 \usepackage{tcolorbox}
 
-\setbeamerfont{title}{family=\Display,size=\fontsize{40}{45}}
-\setbeamerfont{subtitle}{family=\Light,size=\fontsize{14}{16}}
-\setbeamerfont{quote}{family=\Regular,size=\fontsize{12}{14}}
-\setbeamerfont{large text}{family=\ExtraLight,size=\fontsize{26}{30}}
-\setbeamerfont{date}{family=\Light,size=\fontsize{12}{14}}
-\setbeamerfont{author}{family=\SemiBold,size=\fontsize{12}{14}}
-\setbeamerfont{institute}{family=\Light,size=\fontsize{12}{14}}
-\setbeamerfont{section title}{size=\LARGE}
-\setbeamerfont{frametitle}{family=\Regular,size=\Large,shape=\scshape}
-\setbeamerfont{block title}{family=\Regular,size=\large}
-\setbeamerfont{caption name}{family=\Regular}
-\setbeamerfont{pagenumber}{family = \Light, size = \footnotesize}
+\setbeamerfont{title}{family = \Display, size = \fontsize{36}{40}}
+\setbeamerfont{subtitle}{family = \DisplayLight, size = \fontsize{14}{16}}
+\setbeamerfont{quote}{family = \Regular, size = \fontsize{12}{14}}
+\setbeamerfont{large text}{family = \ExtraLight, size = \fontsize{26}{30}}
+\setbeamerfont{date}{family = \DisplayLight, size = \fontsize{12}{14}}
+\setbeamerfont{author}{family = \DisplayBold, size = \fontsize{12}{14}}
+\setbeamerfont{institute}{family = \DisplayLight, size = \fontsize{12}{14}}
+\setbeamerfont{section title}{size = \LARGE}
+\setbeamerfont{frametitle}{family = \Display, size = \Large}
+\setbeamerfont{block title}{family = \Regular, size = \large}
+\setbeamerfont{caption name}{family = \Regular}
+\setbeamerfont{pagenumber}{size = \footnotesize}
 
 % replace beamer blocks with tcolorboxes
 \newtcolorbox{myblock}[2][]{
