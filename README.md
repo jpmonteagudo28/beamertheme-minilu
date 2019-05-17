@@ -12,6 +12,12 @@ _Manc_ takes lots of ideas from:
 * [The metropolis theme](https://github.com/matze/mtheme)
 * [The tudoposter theme](https://github.com/MaxNoe/tudoposter)
 
+## Requirements
+
+* The document must be compiled using `xelatex`, as the `fontspec` package is required;
+* The [INTER](https://rsms.me/inter/) font family;
+* The [Iosevka](https://typeof.net/Iosevka/) and [Iosevka Slab](https://typeof.net/Iosevka/) font families.
+
 ## Using the theme
 
 You can use this theme by including
