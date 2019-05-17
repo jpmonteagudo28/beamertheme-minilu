@@ -1,46 +1,42 @@
 
-# Manc - A theme for LaTeX-Beamer
+# `miniuol` - A Beamer theme
 
-A Manchester-styled beamer theme.
+A minimal-looking theme styled to fit most of the [University of Leicester](https://le.ac.uk) brand guidelines.
 
-This is an unofficial theme, the University of Manchester logo is copyright of the University of Manchester.
+This is an unofficial theme, and the University of Leicester logo is copyright of the University of Leicester.
 
-Lots of ideas have been taken from
+This theme has been forked from the [Manc](https://github.com/ibab/beamertheme-manc) Beamer theme, with modifications to fit my taste.
 
- - [The metropolis theme](https://github.com/matze/mtheme)
- - [The tudoposter theme](https://github.com/MaxNoe/tudoposter)
+_Manc_ takes lots of ideas from:
+
+* [The metropolis theme](https://github.com/matze/mtheme)
+* [The tudoposter theme](https://github.com/MaxNoe/tudoposter)
 
 ## Using the theme
 
 You can use this theme by including
+
 ```latex
-\usebeamertheme{manc}
+\usebeamertheme{miniuol}
 ```
 in the header of your presentation.
 
-The theme also accepts various boolean and keyword options in the form
-```latex
-\usebeamertheme[booleanOption,keywordOption=value]{manc}
-```
-Here is a table of all currently supported options:
+The theme can be customised by setting the value of supported options:
 
-Option | Type | Description
---- | --- | ---
-`fullfootline` | Bool | Activates footline information (short title, short author).
-`background` | Keyword | Sets a picture as the title background. If this option is not given, the primary color is used to create a solid background.
-`brightbackground` | Bool | Whether the background is bright. By default, the text on the title page will use a bright foreground color. If it is given, then a dark color is used.
-`primaryColor` | Keyword | The primary color to use for the theme. Defaults to a Manchester purple.
-`primaryLightColor` | Keyword | This is intended to be a lighter version of the primary color.
+```latex
+\usebeamertheme[booleanOption, keywordOption = value]{miniuol}
+```
+The currently supported options are:
+
+* `fullfootline`, boolean, activates footline information (short title, short author);
+* `background`, keyword, sets a picture as the title background. If this option is not given, the primary color is used to create a solid background;
+* `primaryColor`, keyword, the primary color to use for the theme, in HEX format. Defaults to Pantone 200C;
+* `primaryLightColor`, keyword, this is intended to be a lighter version of the primary color (also in HEX format). Defaults to Pantone 431 C, 50%.
 
 ## Demos
 
-See [default_demo.pdf](./demo_default.pdf) for the default look of the theme:
+See [default.pdf](./default.pdf) for the default look of the theme:
 
-[![default](./demo_default-0.jpg)](./demo_custom.pdf)
+[![default-01](./default-1.png)](./default.pdf)
 
-See [forest_demo.pdf](./demo_forest.pdf) for a version of the same
-presentation, but with customized options. The title background image is by
-[Frances Gunn](https://unsplash.com/francesgunn).
-
-[![custom](./demo_custom-0.jpg)](./demo_custom.pdf)
-
+[![default-02](./default-2.png)](./default.pdf)
