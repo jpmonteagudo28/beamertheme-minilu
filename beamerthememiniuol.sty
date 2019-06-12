@@ -1,5 +1,5 @@
 
-\ProvidesPackage{beamerthememiniuol}[2019/05/17]
+\ProvidesPackage{beamerthememiniuol}[2019/06/12]
 
 \mode<presentation>
 
@@ -93,9 +93,9 @@
 	ItalicFont = {Inter Light Italic BETA},
 	BoldItalicFont = {Inter Bold Italic},
 ]{Inter Light BETA}
-\newfontfamily\Display{Iosevka Slab}
-\newfontfamily\DisplayLight{Iosevka Slab Light}
-\newfontfamily\DisplayBold{Iosevka Slab Bold}
+\newfontfamily\Display{Inter}
+\newfontfamily\DisplayLight{Inter Light BETA}
+\newfontfamily\DisplayBold{Inter Bold}
 \setmonofont[
 	BoldFont = {Iosevka Bold},
 	ItalicFont = {Iosevka Italic},
@@ -108,10 +108,10 @@
 % Boxes
 \usepackage{tcolorbox}
 
-\setbeamerfont{title}{family = \Display, size = \fontsize{36}{40}}
+\setbeamerfont{title}{family = \Display, size = \fontsize{28}{30}}
 \setbeamerfont{subtitle}{family = \DisplayLight, size = \fontsize{14}{16}}
 \setbeamerfont{quote}{family = \Regular, size = \fontsize{12}{14}}
-\setbeamerfont{large text}{family = \ExtraLight, size = \fontsize{26}{30}}
+\setbeamerfont{large text}{family = \ExtraLight, size = \fontsize{24}{26}}
 \setbeamerfont{date}{family = \DisplayLight, size = \fontsize{12}{14}}
 \setbeamerfont{author}{family = \DisplayBold, size = \fontsize{12}{14}}
 \setbeamerfont{institute}{family = \DisplayLight, size = \fontsize{12}{14}}
@@ -119,7 +119,7 @@
 \setbeamerfont{frametitle}{family = \Display, size = \Large}
 \setbeamerfont{block title}{family = \Regular, size = \large}
 \setbeamerfont{caption name}{family = \Regular}
-\setbeamerfont{pagenumber}{size = \footnotesize}
+\setbeamerfont{pagenumber}{size = \scriptsize}
 
 % replace beamer blocks with tcolorboxes
 \newtcolorbox{myblock}[2][]{
