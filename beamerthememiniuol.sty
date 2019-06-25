@@ -1,9 +1,11 @@
-
-\ProvidesPackage{beamerthememiniuol}[2019/06/12]
+\ProvidesPackage{beamerthememiniuol}[2019/06/25]
 
 \mode<presentation>
 
 \usepackage{kvoptions}
+% Template breaks without these packages ¯\_(ツ)_/¯
+\usepackage{polyglossia}
+\usepackage[english]{isodate}\isodate
 
 % Process options
 \DeclareBoolOption{fullfootline}
@@ -61,13 +63,11 @@
 
 % Tikz
 \usepackage{tikz}
-
 \usetikzlibrary{positioning}
 \usetikzlibrary{backgrounds}
 
 % Fonts
 \usepackage{microtype}
-
 \usepackage{fontspec}
 \usefonttheme{professionalfonts}
 \usepackage{unicode-math}
@@ -106,19 +106,18 @@
 
 % Boxes
 \usepackage{tcolorbox}
-
-\setbeamerfont{title}{family = \Display, size = \fontsize{28}{30}}
-\setbeamerfont{subtitle}{family = \DisplayLight, size = \fontsize{14}{16}}
-\setbeamerfont{quote}{family = \Regular, size = \fontsize{12}{14}}
-\setbeamerfont{large text}{family = \ExtraLight, size = \fontsize{24}{26}}
-\setbeamerfont{date}{family = \DisplayLight, size = \fontsize{10}{12}}
-\setbeamerfont{author}{family = \Display, size = \fontsize{12}{14}}
-\setbeamerfont{institute}{family = \DisplayLight, size = \fontsize{10}{12}}
+\setbeamerfont{title}{family = \Display, size = \huge}
+\setbeamerfont{subtitle}{family = \DisplayLight, size = \Large}
+\setbeamerfont{quote}{family = \Regular, size = \large}
+\setbeamerfont{large text}{family = \ExtraLight, size = \large}
+\setbeamerfont{date}{family = \DisplayLight, size = \small}
+\setbeamerfont{author}{family = \Display, size = \large}
+\setbeamerfont{institute}{family = \DisplayLight, size = \normalsize}
 \setbeamerfont{section title}{size = \LARGE}
 \setbeamerfont{frametitle}{family = \Display, size = \Large}
 \setbeamerfont{block title}{family = \Regular, size = \large}
-\setbeamerfont{caption name}{family = \Regular}
-\setbeamerfont{pagenumber}{size = \scriptsize}
+\setbeamerfont{caption name}{family = \Regular, size = \small}
+\setbeamerfont{pagenumber}{size = \tiny}
 
 % replace beamer blocks with tcolorboxes
 \newtcolorbox{myblock}[2][]{
