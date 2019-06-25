@@ -15,8 +15,8 @@ _Manc_ takes lots of ideas from:
 ## Requirements
 
 * The document must be compiled using `xelatex`, as the `fontspec` package is required;
-* The [Inter](https://rsms.me/inter/) font family;
-* The [Iosevka](https://typeof.net/Iosevka/) font family.
+* The [San Francisco](https://developer.apple.com/fonts/) font stack;
+* The [Iosevka Slab](https://typeof.net/Iosevka/) font family.
 
 ## Using the theme
 
