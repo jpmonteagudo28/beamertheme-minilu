@@ -1,6 +1,8 @@
 .PHONY: ex
 
 ex:
+	latexmk -xelatex default.tex
+	latexmk -c
 	qpdf --pages default.pdf 1 -- default.pdf default-1.pdf
 	qpdf --pages default.pdf 2 -- default.pdf default-2.pdf
 	convert -density 300 default-1.pdf default-1.png
