@@ -1,4 +1,4 @@
-\ProvidesPackage{beamerthememiniuol}[2019/06/25]
+\ProvidesPackage{beamerthememiniuol}[2019/07/02]
 
 \mode<presentation>
 
@@ -6,12 +6,14 @@
 % Template breaks without these packages ¯\_(ツ)_/¯
 \usepackage{polyglossia}
 \usepackage[english]{isodate}\isodate
+\usepackage[none]{hyphenat}
 
 % Process options
 \DeclareBoolOption{fullfootline}
 \DeclareStringOption{background}
 \DeclareStringOption[BA0C2F]{primaryColor}
 \DeclareStringOption[DAE6EF]{primaryLightColor}
+\DeclareStringOption[5B6770]{secondaryColor}
 \ProcessKeyvalOptions*
 
 % Table of contents
@@ -29,11 +31,11 @@
 \colorlet{miniuolDarkGrey}{black!90!white}
 \definecolor{miniuolPrimary}{HTML}{\beamerthememiniuol@primaryColor}
 \definecolor{miniuolPrimaryLight}{HTML}{\beamerthememiniuol@primaryLightColor}
-\colorlet{miniuolSecondary}{yellow!70!red}
+\definecolor{miniuolSecondary}{HTML}{\beamerthememiniuol@secondaryColor}
 
 \setbeamercolor{palette1}{fg = white, bg = miniuolPrimary}
 \setbeamercolor{palette2}{fg = miniuolDarkGrey, bg = white}
-\setbeamercolor{palette3}{fg = miniuolDarkGrey, bg = miniuolSecondary}
+\setbeamercolor{palette3}{fg = white, bg = miniuolSecondary}
 \setbeamercolor{palette4}{fg = miniuolDarkGrey, bg = white}
 \setbeamercolor{palette5}{fg = miniuolDarkGrey, bg = miniuolPrimaryLight}
 
@@ -52,6 +54,8 @@
 \setbeamercolor{block body}{parent = palette2}
 \setbeamercolor{block title example}{parent = palette3}
 \setbeamercolor{block body example}{parent = palette4}
+\setbeamercolor{itemize item}{fg = miniuolSecondary}
+\setbeamercolor{enumerate item}{fg = miniuolSecondary}
 
 % Title graphic
 \usepackage[absolute, overlay]{textpos}
