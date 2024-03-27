@@ -7,7 +7,7 @@ This is an unofficial theme, and the Liberty University logo is copyright of the
 
 This theme has been forked from the [Miniuol](ellessenne/beamertheme-miniuol) Beamer theme, with modifications to fit my taste.
 
-_Manc_ takes lots of ideas from:
+_Miniuol_ takes lots of ideas from:
 
 * [The metropolis theme](https://github.com/matze/mtheme)
 * [The tudoposter theme](https://github.com/MaxNoe/tudoposter)
