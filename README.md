@@ -1,9 +1,9 @@
 
 # `miniuol` - A Beamer theme
 
-A minimal-looking theme styled to fit most of the [University of Leicester](https://le.ac.uk) brand guidelines.
+A minimal-looking theme styled to fit most of the [Liberty University]([https://le.ac.uk](https://www.liberty.edu/marketing/wp-content/uploads/sites/114/2023/01/Branding-Guide-Digital.pdf)) brand guidelines.
 
-This is an unofficial theme, and the University of Leicester logo is copyright of the University of Leicester.
+This is an unofficial theme, and the Liberty University logo is copyright of the University of Leicester.
 
 This theme has been forked from the [Manc](https://github.com/ibab/beamertheme-manc) Beamer theme, with modifications to fit my taste.
 
@@ -23,14 +23,14 @@ _Manc_ takes lots of ideas from:
 You can use this theme by including
 
 ```latex
-\usebeamertheme{miniuol}
+\usebeamertheme{minilu}
 ```
 in the header of your presentation.
 
 The theme can be customised by setting the value of supported options:
 
 ```latex
-\usebeamertheme[booleanOption, keywordOption = value]{miniuol}
+\usebeamertheme[booleanOption, keywordOption = value]{minilu}
 ```
 The currently supported options are:
 
