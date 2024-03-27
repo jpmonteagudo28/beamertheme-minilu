@@ -5,7 +5,7 @@ A minimal-looking theme styled to fit most of the [Liberty University](https://w
 
 This is an unofficial theme, and the Liberty University logo is copyright of Liberty University.
 
-This theme has been forked from the [Miniuol](ellessenne/beamertheme-miniuol) Beamer theme, with modifications to fit my taste.
+This theme has been forked from the [Miniuol](https://github.com/ellessenne/beamertheme-miniuol) Beamer theme, with modifications to fit my taste.
 
 _Miniuol_ takes lots of ideas from:
 
