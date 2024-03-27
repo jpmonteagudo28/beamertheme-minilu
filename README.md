@@ -1,5 +1,5 @@
 
-# `miniuol` - A Beamer theme
+# `minilu` - A Beamer theme
 
 A minimal-looking theme styled to fit most of the [Liberty University]([https://le.ac.uk](https://www.liberty.edu/marketing/wp-content/uploads/sites/114/2023/01/Branding-Guide-Digital.pdf)) brand guidelines.
 
