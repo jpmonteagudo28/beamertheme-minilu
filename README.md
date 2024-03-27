@@ -3,7 +3,7 @@
 
 A minimal-looking theme styled to fit most of the [Liberty University](https://www.liberty.edu/marketing/wp-content/uploads/sites/114/2023/01/Branding-Guide-Digital.pdf) brand guidelines.
 
-This is an unofficial theme, and the Liberty University logo is copyright of the University of Leicester.
+This is an unofficial theme, and the Liberty University logo is copyright of Liberty University.
 
 This theme has been forked from the [Miniuol](ellessenne/beamertheme-miniuol) Beamer theme, with modifications to fit my taste.
 
