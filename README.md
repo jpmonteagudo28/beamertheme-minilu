@@ -1,7 +1,7 @@
 
 # `minilu` - A Beamer theme
 
-A minimal-looking theme styled to fit most of the [Liberty University]([https://le.ac.uk](https://www.liberty.edu/marketing/wp-content/uploads/sites/114/2023/01/Branding-Guide-Digital.pdf)) brand guidelines.
+A minimal-looking theme styled to fit most of the [Liberty University](https://www.liberty.edu/marketing/wp-content/uploads/sites/114/2023/01/Branding-Guide-Digital.pdf) brand guidelines.
 
 This is an unofficial theme, and the Liberty University logo is copyright of the University of Leicester.
 
