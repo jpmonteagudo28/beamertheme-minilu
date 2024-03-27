@@ -5,7 +5,7 @@ A minimal-looking theme styled to fit most of the [Liberty University](https://w
 
 This is an unofficial theme, and the Liberty University logo is copyright of the University of Leicester.
 
-This theme has been forked from the [Manc](https://github.com/ibab/beamertheme-manc) Beamer theme, with modifications to fit my taste.
+This theme has been forked from the [Miniuol](ellessenne/beamertheme-miniuol) Beamer theme, with modifications to fit my taste.
 
 _Manc_ takes lots of ideas from:
 
