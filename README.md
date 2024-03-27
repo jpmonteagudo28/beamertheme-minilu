@@ -15,8 +15,8 @@ _Miniuol_ takes lots of ideas from:
 ## Requirements
 
 * The document must be compiled using `xelatex`, as the `fontspec` package is required;
-* The [San Francisco](https://developer.apple.com/fonts/) font stack;
-* The [Iosevka Slab](https://typeof.net/Iosevka/) font family.
+* The [Livory](https://fonts.adobe.com/fonts/livory) font family;
+* The [Arsenal](https://fonts.google.com/specimen/Arsenal?query=Arsena) font stack.
 
 ## Using the theme
 
@@ -27,7 +27,7 @@ You can use this theme by including
 ```
 in the header of your presentation.
 
-The theme can be customised by setting the value of supported options:
+The theme can be customized by setting the value of supported options:
 
 ```latex
 \usebeamertheme[booleanOption, keywordOption = value]{minilu}
@@ -36,8 +36,8 @@ The currently supported options are:
 
 * `fullfootline`, boolean, activates footline information (short title, short author);
 * `background`, keyword, sets a picture as the title background. If this option is not given, the primary color is used to create a solid background;
-* `primaryColor`, keyword, the primary color to use for the theme, in HEX format. Defaults to Pantone 200C;
-* `primaryLightColor`, keyword, this is intended to be a lighter version of the primary color (also in HEX format). Defaults to Pantone 431 C, 50%.
+* `primaryColor`, keyword, the primary color to use for the theme, in HEX format. Defaults to Pantone 282 and Pantone 187;
+* `primaryLightColor`, keyword, this is intended to be a lighter version of the primary color (also in HEX format). Defaults to Pantone 284.
 
 ## Demos
 
